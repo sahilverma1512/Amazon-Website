@@ -1,0 +1,696 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER STYLE */
+
+#header{
+    color: white;
+    height: 60px;
+    background-color: black;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ 
+}
+
+#logo1{
+    
+    height: 50px;
+    width: 100px;
+    margin-top: 8px;
+}
+
+#mainlogo{
+    height: 100px;
+    width: 100px;
+}
+#address{
+    height: 50px;
+}
+#logo{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    margin-top: 25px;
+    
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+#loclogo{
+    margin-top: 7px;
+    color: #cccccc;
+    font-size: 14px;
+}
+
+#loclogo2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.searchbox{
+    display: flex;
+     justify-content: space-evenly; 
+    width: 720px;
+    height: 40px;
+    border-radius: 5px;
+
+    border: none;
+}
+
+.searchbox:hover{
+    border:2px solid orange;
+}
+#selectbox{
+   width: 70px;
+   border-top-left-radius: 5px ;
+   border-bottom-left-radius: 5px;
+   background-color: #f3f3f3;
+   text-align: center;
+   border: none;
+   
+}
+
+#inputsearch{
+  margin-left: 0px;
+    width: 650px;
+font-size: 16px;
+
+border: none;
+}
+
+#searchicondiv{
+    width: 60px;
+    font-size: 20px;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#india{
+    display: flex;
+align-items: center;
+height: 50px;
+width: 68px;
+margin-left: 30px;
+margin-right: 0px;
+}
+#language{
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-style: bold;
+}
+
+#indiaflag{
+    margin-right: 1px;
+    height: 15px;
+    width: 20px;
+}
+
+#accounts{
+   
+    margin-left: 10px;
+    height: 50px;
+    width: 120px;
+}
+
+#signin{
+    margin-top: 11px;
+    font-size: 13px;
+}
+
+#list{
+    font-size:14px ;
+    font-style: bold; 
+    font-weight: 700;
+}
+
+#return{
+    /* margin-left: 30px; */
+    text-align: left;
+    height: 50px;
+    width: 90px;
+}
+
+#returns{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 13px;
+    
+}
+#orders{
+    margin-left: 30px;
+
+    margin-top: 1px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#cart{
+    display: flex;
+    height: 50px;
+    width: 80px;
+    font-size: 30px;
+}
+
+#cartlogo{
+    margin-left: 10px;
+    margin-top: 12px;
+    font-size: 30px;
+}
+
+#cart1{ 
+    
+    margin-top: 27px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* PANNEL STYLE */
+
+#panel{
+   
+    height: 40px;
+    color: white;
+    background-color: #232f3e;
+    
+}
+#menu{
+    
+    color: white;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#menu a{
+    margin-top: 3px;
+    color: white;
+    border: none;
+    text-decoration: none;
+    /* display: flex; */
+    justify-content: space-evenly;
+    display: inline;
+}
+
+
+#one{
+    display: flex;
+    height: 35px;
+    width: 60px;
+}
+#two{
+    height: 35px;
+    width: 30px;
+}
+#three{height: 35px;
+    width: 50px;}
+#four{height: 35px;
+    width: 50px;}
+#five{height: 35px;
+    width: 50px;}
+#six{height: 35px;
+    width: 43px;}
+#seven{height: 35px;
+    width: 70px;}
+#eight{height: 35px;
+    width: 80px;}
+#nine{height: 35px;
+    width: 55px;}
+#ten{height: 35px;
+    width: 50px;}
+
+                                /* HERO IMAGE STYLE */
+    #heroimage{
+        height: 500px;
+        background-image: url("indian_festival.jpg");
+        background-size: cover;
+    }
+
+
+                                /*  CONTENT STYLE */
+
+
+.content1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height:300px;
+    width: 100%;
+    position: absolute; 
+     top: 360px; 
+    /* background-color: #e2e7e6; */
+    border: none;
+   
+}
+.content{
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+#box1{
+
+   
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+
+#box2{
+
+    
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+
+#box3{
+
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+
+#box4{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    
+}
+
+#box5{ margin-top:20px;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    
+}
+
+
+#box6{ margin-top:20px;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    
+}
+
+
+#box7{ margin-top:20px;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    
+}
+
+
+#box8{
+    margin-top:20px;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    
+}
+
+
+
+
+#content2{
+
+    display: flex;
+    background-color: #e2e7e6;
+    height:1000px;
+    width:100% ;
+    position: relative;
+    z-index: -1;
+
+}
+
+#box1content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    padding: 20px 0px 15px;
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+#box2content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    padding: 20px 0px 15px;
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+#box3content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    padding: 20px 0px 15px;
+    background-image: url("box4_image.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+
+#box4content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    padding: 20px 0px 15px;
+    background-image: url("btcallingsmartwatch.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+
+
+
+#box5content{
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    padding: 20px 0px 15px;
+    margin-left: 20px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+#b5style1{
+   height: 130px;
+   width: 130px; 
+   background-image: url("style1.jpg");
+   background-size: cover;
+   background-repeat: none;
+   position: absolute;
+   top: 480px; 
+}
+#b5style2{
+    height: 130px;
+    width: 130px; 
+    background-image: url("style2.jpg");
+    background-size: cover;
+    background-repeat: none;
+    position: absolute;
+    top: 480px;
+    margin-left: 160px;
+}
+ 
+ #b5style3{
+    height: 130px;
+    width: 130px; 
+    background-image: url("style3.jpg");
+    background-size: cover;
+    background-repeat: none;
+    position: absolute;
+    top: 630px;
+    
+ }
+
+ #b5style4{
+    height: 130px;
+    width: 130px; 
+    background-image: url("style4.jpg");
+    background-size: cover;
+    background-repeat: none;
+    margin-left: 160px;
+    position: absolute;
+    top: 630px;
+ }
+
+ 
+
+#box6content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    padding: 20px 0px 15px;
+    background-image: url("box8_image.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+
+#box7content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    padding: 20px 0px 15px;
+    background-image: url("box5_image.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+
+#box8content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    padding: 20px 0px 15px;
+    background-image: url("box7_image.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+
+
+#rupee{
+    width: 20px;
+    height: 20px;
+}
+h2{
+    margin-top: 20px;
+}
+.see{
+    color: #1d72d9;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+
+
+                                /* BANNER STYLE */
+
+.amazonprime{
+    display:flex ;
+    justify-content: center;
+    height: 428px;
+    width: 1450px;
+    margin: 10px 10px 10px 10px;
+    background-image: url("amazonprime.png");
+    background-size: cover;
+    background-color: #febd68;
+    z-index: 10 ;
+    /* display: flex;
+    align-content: center; */
+    position: absolute;
+    top: 1200px;
+    border: 1px solid rgb(199, 187, 187);
+    border-radius: 5px;
+}
+
+#divcontinue{
+    height: 70px;
+    width: 100%;
+    background-color: #e2e7e6;
+    position: relative;
+    /* top: 50px; */
+}
+
+
+/*  SIGN IN STYLE */
+
+#signindiv{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+#signinbutton{
+    font-weight: 600;
+    position: absolute;
+    top: 1725px;
+    left: 675px;
+    background-color: #fed223;
+    width: 150px;
+    height: 35px;
+    border-color: orange;
+    border-radius: 6px;
+}
+
+#personalized{
+    font-size: 15px;
+    font-weight: 520;
+    position: absolute;
+    top: 1700px;
+    left: 630px;
+    text-align: center;
+}
+
+
+
+                                    /* FOOTER STYLE*/
+
+
+ #backtotop{
+    margin-top: 20px;
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+ }
+ #backtotop:hover{
+    background-color:#445266 ;
+ }
+
+ #footer a{
+    
+    text-decoration: none;
+    display: flex;
+    margin: 15px;
+    color: #dddddd;
+    
+ }
+
+ #footer{
+  
+    color: white;
+    height: 400px;
+    width: 100%;
+    background-color: #232f3e;
+    display:flex;
+    justify-content: space-evenly;
+    align-content: center;
+ }
+
+ ul{
+    display: block;
+    margin-top: 20px;
+ }
+
+#div2{
+    border-top:2px solid rgb(116, 114, 114);
+    height: 90px;
+    width: 100%;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#amazonlogo2{
+    
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 70px;
+    width: 130px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+}
+
+#globe{
+    color: white;
+    z-index: 13;
+   
+}
+
+#lang{
+    margin-top: 38px;
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    border: none;
+}
+#indiarupee{ 
+    width: 170px;
+    text-align: center;
+}
+h6{
+    /* border: 1px solid white; */
+    color: white;
+    font-size: 15px;
+    margin-top: 38px;   
+}
+#flag3{
+    color: white;
+    font-size: 20px;
+    font-weight: 520;
+}
+
+#flag2{
+    color: white;
+    margin-top: 38px;
+}
+
+#end{
+    
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    color: white;
+    background-color:#232f3e ;
+    border-top: 2px white;
+}
+#end a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+#end p{
+    margin-top: 3px;
+    font-size: 13px;
+    color: white;
+}
+
+
+
+                                            /* END of the AMAZON WEBSITE */
